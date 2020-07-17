@@ -1,4 +1,50 @@
-# question 1
+# question 1 
+     //getting number of lcm values
+
+let numberOfValues=prompt("enter the values ");
+let array=[];
+let max=0, i;
+
+// get number from user and store ina a array
+
+for(let i=0;i<numberOfValues;i++){
+ array[i]=prompt(i);
+ document.write(array[i]+"<br>");
+}
+
+// among number finding which one is max;
+
+for( i=0;i<numberOfValues;i++)
+{
+   
+   if(array[i]>max) 
+    max=array[i];
+    
+}
+document.write("larger one is "+ max +"<br>");
+
+// operation of lcm 
+
+for( ; ; max++){
+for(i=0;i<numberOfValues;i++)
+{
+   if(max%array[i]!==0)
+   {
+      max= max*array[i];
+
+   } 
+}
+document.write("the lcm of given number is:"+max+"<br>");
+break;
+}
+
+
+
+
+
+
+
+# question 2
  
      let initialValue=0,nextValue =1, additionValue;
 // value get from user 
