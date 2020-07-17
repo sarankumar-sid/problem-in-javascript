@@ -39,11 +39,6 @@ break;
 }
 
 
-
-
-
-
-
 # question 2
  
      let initialValue=0,nextValue =1, additionValue;
@@ -56,4 +51,53 @@ for(let i=1 ; i<=fibanocciValue ; i++)
     initialValue  =  nextValue;
     nextValue     =  additionValue;  
 }
-    
+
+# question 3
+
+     
+let members= prompt("No. Of Team Members");
+let gRevolution =[];
+let oppTeam=[];
+ let win=0;
+// power of team G revolution
+for(let i=1;i<=members;i++)
+{
+    gRevolution[i]=prompt("power of  gRevoultion member"+ " " +i);
+    //console.log(gRevolution[i]);
+}
+// power of team opponent 
+for(let i=1;i<=members;i++)
+{
+    oppTeam[i]=prompt("power of oppteam "+ " "+i);
+   // console.log(oppTeam[i]);
+}
+// checking for power
+ for(i=1;i<=members;i++)
+ {
+   if(gRevolution [i] >oppTeam[i])
+   {
+     win=win+1;
+   }
+  }
+  console.log("the possibility of gRevolution win is  " + win);
+  
+  
+  #question 4 
+let number=prompt("enter the value");
+let addValue=0;
+let i=0
+while(addValue!=1 && i<=4)
+{
+      addValue=0;
+      i++;
+  while(number>0)
+    {
+        addValue= addValue+(number%10*number%10);
+        number=Math.floor(number/10);
+        
+    }
+    console.log(addValue);
+    number=addValue;
+}
+console.log(addValue==1 ?"given no is right":"enter a valid number")
+
