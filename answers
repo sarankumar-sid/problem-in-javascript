@@ -1,0 +1,13 @@
+# question 1
+ 
+     let initialValue=0,nextValue =1, additionValue;
+// value get from user 
+let fibanocciValue = prompt("enter the fibanocci limit value:");
+for(let i=1 ; i<=fibanocciValue ; i++)
+{
+    document.write(initialValue + " ");
+    additionValue =  initialValue+nextValue;
+    initialValue  =  nextValue;
+    nextValue     =  additionValue;  
+}
+    
