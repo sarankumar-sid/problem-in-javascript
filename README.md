@@ -44,3 +44,5 @@
 # question 5 
          If i give a number should say which berth I am supposed to take.   Lower or Middle or Upper
  
+ # question 6 
+              2 input  one is number of steps  another is using that value you will be building it check the image for detail info and test cases
