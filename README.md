@@ -39,4 +39,8 @@
      his sequence will never reach 1
 
      if 1 then - conversion failed
+
+
+# question 5 
+         If i give a number should say which berth I am supposed to take.   Lower or Middle or Upper
  
