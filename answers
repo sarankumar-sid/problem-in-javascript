@@ -101,3 +101,26 @@ while(addValue!=1 && i<=4)
 }
 console.log(addValue==1 ?"given no is right":"enter a valid number")
 
+
+
+# solution 5
+ let number= prompt("enter the seat number ");
+ if( number >0 && number <71)
+ {
+if(number %8==1 || number%8==4)
+{
+    console.log("your seat in lower berth ");
+}
+else if(number %8==2 || number%8==5)
+{
+    console.log("your seat in middle berth ");
+}
+else if(number %8==3 || number %8 == 6)
+{
+    console.log(" your seat in upper berth");
+}
+else {
+console.log( "please enter valid number ");
+}
+ }
+
