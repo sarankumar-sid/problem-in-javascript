@@ -46,3 +46,8 @@
  
  # question 6 
               2 input  one is number of steps  another is using that value you will be building it check the image for detail info and test cases
+
+
+#question 7
+         rotation of array 
+         
