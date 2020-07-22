@@ -45,9 +45,14 @@
          If i give a number should say which berth I am supposed to take.   Lower or Middle or Upper
  
  # question 6 
-              2 input  one is number of steps  another is using that value you will be building it check the image for detail info and test cases
+              2 input  one is number of steps  another is using that value you will be building it check the image for detail info and test case 
 
 
-#question 7
-         rotation of array 
+ # question 7
+              rotation of array
+       
+ # question 8 
+               This problem was asked by Microsoft.
+             -> Given a clock time in hh:mm format, determine, to the nearest degree, the angle between the hour and the minute hands.
+             -> Bonus: When, during the course of a day, will the angle be zero?
          
